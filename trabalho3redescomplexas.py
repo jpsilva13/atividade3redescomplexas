@@ -1,6 +1,5 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from networkx.algorithms.community import greedy_modularity_communities
 
 def plotaComunidades(comunidades,G,colors):
     pos = nx.spring_layout(G)  # Layout para posicionar os nós
